@@ -5,4 +5,13 @@ body {
         max-height: 100vh;
         margin-bottom: 0;
     }
+    .settings-menu{
+        .disabled, :disabled {
+            background-color: inherit !important;
+        }
+    }
+
+    .qti-navigator {
+        width: inherit;
+    }
 }

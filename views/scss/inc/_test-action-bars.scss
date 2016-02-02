@@ -48,6 +48,9 @@
             overflow-y:visible;
             min-height: #{(map-get($heights, horizontal-action-bar)) * 1px };
 
+            .disabled, :disabled {
+                background-color: inherit !important;
+            }
             .title-box {
                 @include font-size(14);
                 padding: 4px 0 0;
